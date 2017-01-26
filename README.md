@@ -36,5 +36,15 @@ Many environments tend to hide the launched state of a program, resulting in dat
 * **RAM is only used as a cache**. There is no launched status for a program (programs don't exist anymore), no openned or saved status for a file, no loaded status for a class. The user finds his session on boot as he left it previously, he doesn't need to worry about data being saved or not. Booting is super-fast as every object is automatically persisted to disk when cache is emptied.
 
 ### 3. Multi-Node
+For a long time information system have been viewed and administered as a collection of separate and self-sufficient boxes. Since the 2000's, this model as exploded with the arrival of three-tiered architecture, ditributing a service on mutliple and redundant servers, of virtual-machines, virtualization and containers, permitting multiple virtual computers to run on the same machine with several degrees of containement.
+
+Omnis proposes to intergrate these advancements in multiple ways.
+
+#### Mutiple presentations
+Omnis can be used as a full-fledged operating system, but also as a container, fully isaolated from it's parent system, or as a virtual machine, thus providing a full and standardized access to the functions of the parent system.
+
+#### Data and code sharing
+Objects and classes can be shared or duplicated between nodes thus providing replication to ensure data security, and sharing of processing power and storage capacity. Code can be transfered inside a class or in a message as bytecode, thus ensuring compatibility between different architectures on the same network. Shared classes permit the transparent execution of code over a network, providing a perfect balance of computing power repartition.
 
 ### 4. Scalable
+Evolution of computing tends to promote portable devices. Omnis' multi-node and memory architecture avails running on any hardware environment, ranging from embedded or portable device to workstation to powerfull server.
