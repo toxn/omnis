@@ -22,16 +22,18 @@ Objects can be reused, reducing the need to duplicate code, while system-wide in
 A deep implementation of persistency has a very wide influence on how objects are stored and how the user views them and the whole system.
 
 #### Persistent storage vs volatile
-The user often deal with problem relative to memory/storage type. Most of these problems can be seen when dealing when working with users having low or inexistant technical background. But those problems can also affect IT professional.
+The user often deal with problem relative to memory/storage type. Most of these problems can be seen when dealing when working with users having low or inexistant technical background. But those problems can also affect IT professionals.
 
-_Where are my data?_
+##### _Where are my data?_
 That's a question frequently asked to technical assistance operators. Wether an application was closed while the changes were not saved, or old data have been erased and can't be retrieved (because of backup policy, change history is presented as linear, etc), or location of saved data is ambiguous or unknown (location forgoetten or masked by a locally mounted shared disk or working on remote display).
 
-_Where is my program?_
+##### _Where is my program?_
 Many environments tend to hide the launched state of a program, resulting in data losses at extinction, higher energy/battery consumption, multiple launches errors.
 
-Omnis provides an elegant solution to all those problems.* 
-*  Data is stored as an object-oriented database
+Omnis provides an elegant solution to all those problems.
+* Data is stored on disk as an object-oriented database. The legacy hierarchy of directories is replaced with tags and metadata, thus permitting on-the-fly indexation.
+
+* RAM is only used as a cache. There is no launched status for a program (programs don't exist anymore), no openned or saved status for a file, no loaded status for a class. The user finds his session on boot as he left it previously, he doesn't need to worry about data being saved or not. Booting is super-fast as every object is automatically persisted to disk when cache is emptied.
 
 ### 3. Multi-Node
 
