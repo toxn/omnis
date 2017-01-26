@@ -35,6 +35,8 @@ Many environments tend to hide the launched state of a program, resulting in dat
 
 * **RAM is only used as a cache**. There is no launched status for a program (programs don't exist anymore), no openned or saved status for a file, no loaded status for a class. The user finds his session on boot as he left it previously, he doesn't need to worry about data being saved or not. Booting is super-fast as every object is automatically persisted to disk when cache is emptied.
 
+* **Copy-on-write mechanism offers a perfect hierarchical undo/redo**. Every change, by every user is persisted as would be in a versioning system and retrievable until a garbage collector redeems the disk space.
+
 ### 3. Multi-Node
 For a long time information system have been viewed and administered as a collection of separate and self-sufficient boxes. Since the 2000's, this model as exploded with the arrival of three-tiered architecture, ditributing a service on mutliple and redundant servers, of virtual-machines, virtualization and containers, permitting multiple virtual computers to run on the same machine with several degrees of containement.
 
