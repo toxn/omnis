@@ -13,7 +13,7 @@ Omnis doesn't provide applications directly to the user. Programs are a result o
 User doesn't have to choose between several softwares with varying advantages, Uis or licencing. He want's to create an image; he just selects 'Create new Image'. He wants to modify a video; he just searches for the video and selects 'Modify'. In fact branding is defered to the administrator, who will choose the default class to be used for this or that, install new modules, choose or modify the default UI for each type of datum. More to that, the user doesn't have to remember which program/command does what (please note that this doesn't forbid having data such as 'Command-line session with interpreter X').
 
 #### Software price is reduced to added value
-As standard APIs evolve, the administrator needs just buy the classes that really had some value over free software that become intergrated in the standard APIs. No need to spend money or resources on software that is already available for free and is open and community maintain. Software vendors are incited to provide added value on the object and service levels, which spurs innovation rather than imitation.
+As standard APIs evolve, the administrator needs just buy the classes that really had some value over free software that becomes intergrated in the standard APIs. No need to spend money or resources on software that is already available for free and is open and community-maintained. Software vendors are incited to provide added value on the object and service levels, which spurs innovation rather than imitation.
 
 #### Lower code duplicity
 Objects can be reused, reducing the need to duplicate code, while system-wide inheritanceand polymorphism limit the need to resort to forking.
