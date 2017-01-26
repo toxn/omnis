@@ -35,6 +35,8 @@ Many environments tend to hide the launched state of a program, resulting in dat
 
 * **RAM is only used as a cache**. There is no launched status for a program (programs don't exist anymore), no openned or saved status for a file, no loaded status for a class. The user finds his session on boot as he left it previously, he doesn't need to worry about data being saved or not. Booting is super-fast as every object is automatically persisted to disk when cache is emptied.
 
+* **Copy-on-write mechanism offers a perfect hierarchical undo/redo**. Every change, by every user is persisted as would be in a versioning system and retrievable until a garbage collector redeems the disk space.
+
 ### 3. Multi-Node
 
 ### 4. Scalable
