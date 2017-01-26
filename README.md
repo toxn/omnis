@@ -36,5 +36,6 @@ Many environments tend to hide the launched state of a program, resulting in dat
 * **RAM is only used as a cache**. There is no launched status for a program (programs don't exist anymore), no openned or saved status for a file, no loaded status for a class. The user finds his session on boot as he left it previously, he doesn't need to worry about data being saved or not. Booting is super-fast as every object is automatically persisted to disk when cache is emptied.
 
 ### 3. Multi-Node
+For a long time information system have been viewed and administered as a collection of separate and self-sufficient boxes.
 
 ### 4. Scalable
