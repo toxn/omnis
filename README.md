@@ -30,10 +30,10 @@ That's a question frequently asked to technical assistance operators. Wether an 
 ##### _Where is my program?_
 Many environments tend to hide the launched state of a program, resulting in data losses at extinction, higher energy/battery consumption, multiple launches errors.
 
-Omnis provides an elegant solution to all those problems.
-* Data is stored on disk as an object-oriented database. The legacy hierarchy of directories is replaced with tags and metadata, thus permitting on-the-fly indexation.
+##### Omnis provides an elegant solution to all those problems.
+* **Data is stored on disk as an object-oriented database**. The legacy hierarchy of directories is replaced with tags and metadata, thus permitting on-the-fly indexation.
 
-* RAM is only used as a cache. There is no launched status for a program (programs don't exist anymore), no openned or saved status for a file, no loaded status for a class. The user finds his session on boot as he left it previously, he doesn't need to worry about data being saved or not. Booting is super-fast as every object is automatically persisted to disk when cache is emptied.
+* **RAM is only used as a cache**. There is no launched status for a program (programs don't exist anymore), no openned or saved status for a file, no loaded status for a class. The user finds his session on boot as he left it previously, he doesn't need to worry about data being saved or not. Booting is super-fast as every object is automatically persisted to disk when cache is emptied.
 
 ### 3. Multi-Node
 
